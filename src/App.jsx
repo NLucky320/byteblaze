@@ -1,3 +1,4 @@
+import Home from "./Pages/Home"
 
 
 
@@ -8,7 +9,7 @@ function App() {
     <>
   
 
-
+<Home></Home>
 
      
     </>
