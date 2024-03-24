@@ -2,9 +2,12 @@ import { useState } from "react";
 import { Outlet, useLoaderData } from "react-router-dom";
 import { Link } from "react-router-dom";
 
+
 const Blog = () => {
     const [tabIndex, setTabIndex] = useState(0);
 
+
+  
   const blog = useLoaderData();
   // console.log(blog);
 
