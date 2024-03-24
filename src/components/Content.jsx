@@ -28,9 +28,9 @@ const Content = () => {
         </div>
 
         <div className=" space-y-2">
-          <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
+          <a href={blog.url}  target="-blank" className="text-2xl font-semibold group-hover:underline group-focus:underline">
             {blog.title}
-          </h3>
+          </a>
                   
                   <Markdown rehypePlugins={[rehypeRaw]}>{blog.body_html}</Markdown>
                 
