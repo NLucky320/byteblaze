@@ -1,9 +1,11 @@
 
 
 const Author = () => {
+    const blog = useLoaderData();
+      console.log(blog);
     return (
         <div>
-          <h1>i am author</h1>
+            <h1>{ blog.user.name}</h1>
         </div>
     );
 };
